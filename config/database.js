@@ -1,7 +1,7 @@
 const { parse } = require("pg-connection-string");
 
 module.exports = ({ env }) => {
-    const { host, port, database, user, password } = parse(env("DATABASE_URL"));
+    const { host, port, database, user, password } = parse(env("postgres://strapi_yuz8_user:CBpvlFEezALoOCf6SrxCWcYFFFY5oCU1@dpg-ci4ofatiuie263f8a720-a.oregon-postgres.render.com/strapi_yuz8"));
 
     return {
         connection: {
