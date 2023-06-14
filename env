@@ -1,0 +1,11 @@
+HOST=dpg-ci4ofatiuie263f8a720-a
+PORT=5432
+APP_KEYS=I8vNIzSg/vjVfzf8SfUqVA==,tRWJwxcRfO51Mj1gOpHIIg==,V4f72YihGAUT7QMhb+sP+Q==,mxiFiA0/Oqg6hmPbmfAGRQ==
+API_TOKEN_SALT=v6LJ0nxMwZtTctp0csS4KA==
+ADMIN_JWT_SECRET=KbPBQqB4ej+dr7GOIuaOrA==
+TRANSFER_TOKEN_SALT=r3jsRy62I7K65M11bNcfOA==
+# Database
+DATABASE_CLIENT=sqlite
+DATABASE_FILENAME=strapi_yuz8
+JWT_SECRET=/N+Yev2KcE5TtrdubpMZmQ==
+DATABASE_URL='postgres://strapi_yuz8_user:CBpvlFEezALoOCf6SrxCWcYFFFY5oCU1@dpg-ci4ofatiuie263f8a720-a.oregon-postgres.render.com/strapi_yuz8'
