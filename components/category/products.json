@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_category_products",
+  "info": {
+    "name": "products",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "richtext",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "price": {
+      "type": "richtext",
+      "required": true
+    },
+    "stars": {
+      "type": "integer",
+      "required": true,
+      "min": 1,
+      "max": 5,
+      "default": 5
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

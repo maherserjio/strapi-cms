@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "name": "Footer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "richtext"
+    },
+    "phone_number": {
+      "type": "richtext"
+    },
+    "facebook_link": {
+      "type": "string"
+    },
+    "instagram_link": {
+      "type": "string"
+    }
+  }
+}

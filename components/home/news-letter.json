@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_home_news_letters",
+  "info": {
+    "name": "News_letter",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "phone_number": {
+      "type": "richtext"
+    },
+    "email": {
+      "type": "richtext"
+    },
+    "work_hours": {
+      "type": "richtext"
+    },
+    "instagram_link": {
+      "type": "string"
+    },
+    "facebook_link": {
+      "type": "string"
+    }
+  }
+}

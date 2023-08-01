@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_slider_sections",
+  "info": {
+    "name": "slider_section",
+    "icon": "asterisk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "products": {
+      "type": "component",
+      "repeatable": true,
+      "component": "category.products"
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

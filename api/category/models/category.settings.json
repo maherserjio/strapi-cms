@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories",
+  "info": {
+    "name": "category",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "categoryName": {
+      "type": "richtext"
+    },
+    "collections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "category.collection"
+    }
+  }
+}
