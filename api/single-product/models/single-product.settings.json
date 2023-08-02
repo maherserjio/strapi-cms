@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "single_products",
+  "info": {
+    "name": "Single_product"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.banner"
+    }
+  }
+}

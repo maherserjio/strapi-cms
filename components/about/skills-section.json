@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_about_skills_sections",
+  "info": {
+    "name": "Skills_section",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "top_description": {
+      "type": "richtext"
+    },
+    "quote": {
+      "type": "richtext"
+    },
+    "bottom_description": {
+      "type": "richtext"
+    },
+    "facebook_link": {
+      "type": "string"
+    },
+    "instagram_link": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_services_sections",
+  "info": {
+    "name": "Services_section",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "services_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.services-card"
+    }
+  }
+}
