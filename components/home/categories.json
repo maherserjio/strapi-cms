@@ -9,7 +9,7 @@
   "attributes": {
     "title": {
       "type": "richtext",
-      "required": true
+      "required": false
     },
     "background_Image": {
       "model": "file",

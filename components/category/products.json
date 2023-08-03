@@ -25,8 +25,28 @@
       "max": 5,
       "default": 5
     },
-    "image": {
+    "main_Image": {
       "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "details_Top_Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "details_Bottom_Image": {
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images"
