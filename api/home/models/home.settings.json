@@ -36,11 +36,6 @@
       "type": "component",
       "repeatable": false,
       "component": "home.social-media-section"
-    },
-    "news_letter": {
-      "type": "component",
-      "repeatable": false,
-      "component": "home.news-letter"
     }
   }
 }
