@@ -24,7 +24,7 @@
     },
     "Services_section": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "about.services-section"
     }
   }
