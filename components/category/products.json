@@ -54,6 +54,11 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "isSoldOut": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
